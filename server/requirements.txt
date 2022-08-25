@@ -25,3 +25,5 @@ selenium==3.8.1
 six==1.11.0
 SQLAlchemy>=1.3.0
 Werkzeug==0.15.5
+markupsafe==2.0.1
+gunicorn>=19.7.1
