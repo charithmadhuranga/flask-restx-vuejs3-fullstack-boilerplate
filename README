@@ -1,18 +1,18 @@
-#### FLASK RESTX + VUJS FULLSTACK BOILER-PLATE WITH JWT
+# FLASK RESTX + VUJS FULLSTACK BOILER-PLATE WITH JWT
 
-### Building and running the api
+## Building and running the api
 
-Note: make sure you have `pip` and `virtualenv` installed.
+**Note: make sure you have `pip` and `virtualenv` installed.**
 
-1.  Initial installation: make install
+1.  Initial installation: ` make install`
 
-2.  To initial migration commands: make init
+2.  To initial migration commands: `make init`
 
-3.  To run test: make tests
+3.  To run test: `make tests`
 
-4.  To run application: make run
+4.  To run application: `make run`
 
-5.  To run all commands at once : make all
+5.  To run all commands at once : `make all`
 
 ### Viewing the app
 
@@ -29,22 +29,22 @@ Note: make sure you have `pip` and `virtualenv` installed.
     For testing authorization, url for getting all user requires an admin token while url for getting a single
     user by public_id requires just a regular authentication.
 
-### Build and run client(UI)
+### Build and run client
 
-Note: Run in the client Folder
+**Note: Run in the client Folder**
 
-Build Client(UI): make build
+Build Client(UI): `make build`
 
-Serve for development : make serve
+Serve for development : `make serve`
 
-clean the build: make clean
+clean the build: `make clean`
 
-###Docker container build and run
+### Docker container build and run
 
-Note: Run in the Root of the repo
+**Note: Run in the Root of the repo**
 
-1.  Build Client(UI): make build
+1.  Build Client(UI): `make build`
 
-2.  To build and run the dockers : make docker
+2.  To build and run the dockers : `make docker`
 
-3.  To clean all docker containers : make clean
+3.  To clean all docker containers : `make clean`
